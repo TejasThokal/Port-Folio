@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Tejas Thokal | Web Developer</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Tejas Thokal</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+<div class="wrapper">
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img src="assets/icons/p.jpg" alt="jane-doe" loading="lazy" class="hero-img">
+        <div class="bio animate__animated animate__shakeX">
+            <br><h2 class="bio-title">About Me</h2>
+            <br><p class="bio-text">
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Hey there,  I'm Tejas Thokal,  a fresh MERN stack developer with a passion for coding and creating. I'm all about crafting cool web apps using MongoDB, Express.js, React, and Node.js. I'm excited to learn, grow, and make my mark in the coding world!"
+            </p>  
+        </div>
+    </section>
+
+    <!-- More About -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I'm new to web development and super excited about the MERN stack. I use it to build cool things for the internet. Fixing problems with code is like solving puzzles, and I love learning new stuff every day. My dream is to create apps that help people and make their lives better. 
+        </p>
+    </section>
+    <!-- Skills Section  -->
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="assets/icons/html.png" alt="" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/css.png" alt="" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/js.png" alt="" loading="lazy" class="icon icon-card"/>
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="assets/icons/node1.png" alt="" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/react.png" alt="" loading="lazy" class="icon icon-card"/>
+                <img src="assets/icons/git.png" alt="" loading="lazy" class="icon icon-card"/>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of My Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="assets/images/calculator.jpg" alt="" loading="lazy" class="project-pic"/>
+                <h3 class="project-title">Calculator</h3>
+                <p class="project-details">
+                    A calculator helps by quickly and accurately performing calculations, making tasks involving numbers much easier.
+                </p>
+                
+                
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/matrimony.jpg" alt="" loading="lazy" class="project-pic"/>
+                <h3 class="project-title">Matrimony Website</h3>
+                <p class="project-details">
+                    A matrimony website helps you find your life partner
+                </p>
+                
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/portfolio.jpg" alt="" loading="lazy" class="project-pic"/>
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-details">
+                    A portfolio website showcases your work, skills, and achievements in one place
+                </p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/{form_id}" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required/>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field" required/>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" name="message" placeholder="Enter Your Message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
+    <!-- Social Accounts - Fixed to the right -->
+    <div class="socials">
+       
+        <a href="#" target="_blank">
+             <a href="https://www.linkedin.com/in/tejasthokal/" target="_blank">
+            <img src="assets/icons/linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon">
+        </a>
+        <a href="#" target="_blank">
+             <a href="https://www.github.com/TejasThokal" target="_blank">
+            <img src="assets/icons/github.gif" alt="Github" loading="lazy" class="socicon">
+        </a>
+       
+    </div>
+    
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="assets/icons/scroll-up.gif" class="socicon up-arrow" alt="scroll-up"/>
+    </i>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="copy">&copy; COPYRIGHT 2023</p>
+        <p class="copy">Built with &#x2661; by
+            <a href="https://www.linkedin.com/in/tejasthokal/" target="_blank">Tejas Thokal</a>
+        </p>
+    </footer>
+
+    <!-- Website Scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion Icons Scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
